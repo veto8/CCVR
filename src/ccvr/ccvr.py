@@ -5,7 +5,7 @@ import sortedcontainers
 from pathlib import Path
 from binaryornot.check import is_binary
 
-class App():
+class Ccvr():
   def __init__(self):
     print("...init")
     
@@ -45,5 +45,5 @@ class App():
       print("{0}\t{1}".format(counter[i],i))
       
 if __name__ == "__main__":
-  a = App()
-  a.check()
+  c = Ccvr()
+  c.check()

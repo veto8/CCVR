@@ -19,10 +19,9 @@ pip install pip --upgrade
 pip install -r requirements.txt
 ```
 
-## Set Permission and run the script
+## Run the script
 ```console
-sudo chmod +x main.py
-python main.py 
+python src/ccvr/ccvr.py
 ```
 
 

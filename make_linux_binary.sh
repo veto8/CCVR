@@ -3,7 +3,7 @@
 sudo rm dist -rf 
 sudo rm build -rf 
 
-docker run -v "$(pwd):/src/" batonogov/pyinstaller-linux "pyinstaller -F main.py"
+docker run -v "$(pwd):/src/" batonogov/pyinstaller-linux "pyinstaller -F src/ccvr/ccvr.py"
 docker run -v "$(pwd):/src/" batonogov/pyinstaller-linux
 
 if [ -f config.ini ] #check if file exists

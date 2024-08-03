@@ -3,7 +3,7 @@
 rm -rf dist 
 rm -rf build
 
-pyinstaller main.py -F -w -n ccvr_macos
+pyinstaller src/ccvr/ccvr.py -F -w -n ccvr_macos
 
 if [ -f config.ini ] #check if file exists
 then
